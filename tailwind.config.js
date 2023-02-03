@@ -18,6 +18,7 @@ module.exports = {
       'grey1' : '#e5e7eb',
       'black1' : '#000000',
       'white2':'#F5F5F5',
+      'white3' : '#F8F8F8',
       'blue1' : '#252F40',
     },
     extend: {},

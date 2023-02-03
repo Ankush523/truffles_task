@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import truffleIcon1 from '../images/truffleIcon2.png';
 import React from 'react'
+import truffleIcon from '../images/truffleIcon2.png';
 import dashboardIcon from "../images/dashboardIcon.svg";
 import invoiceIcon from "../images/invoiceIcon.svg";
 import transferIcon from "../images/transferIcon.svg";
@@ -11,8 +11,9 @@ import swapIcon from "../images/swapIcon.svg";
 const Sidebar = () => {
   return (
     <div className='flex flex-col w-[264px] h-[895px] ml-[0px] mt-[0px]'>
-        <Image src={truffleIcon1} alt="logo" className='w-[166px] h-[28.25px] ml-[49px] mt-[27px]'/>
-        <div className='flex flex-row  w-[219px] h-[55px] ml-[33px] mr-[12px] mt-[45.75px] bg-white1 rounded shadow-sm'>
+        <Image src={truffleIcon} alt="logo" className='w-[166px] h-[28.25px] ml-[49px] mt-[27px] mb-[27.75px]'/>
+        <hr className="border border-white2"/>
+        <div className='flex flex-row  w-[219px] h-[55px] ml-[33px] mr-[12px] mt-[16px] bg-white1 rounded shadow-sm'>
             <Image src={dashboardIcon} alt="vector" className='ml-[16px]'/>
             <label className='text-black1 font-normal text-sm mt-[19px] ml-[11px] leading-4'>Dashboard</label>
         </div>

@@ -16,7 +16,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className='bg-white2 flex flex-row'>
+      <main className='bg-white3 flex flex-row'>
         <div className='w-[264px] h-[895px] ml-[0px] mt-[0px]'>
           <Sidebar/>
         </div>
