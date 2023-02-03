@@ -27,7 +27,7 @@ export default function Home() {
           </div>
 
           <div className='w-[1415px] h-[813px]'>
-            Main frame
+       
           </div>
         </div>
       </main>

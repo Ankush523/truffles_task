@@ -1,8 +1,8 @@
 import Image from 'next/image'
-import logo1 from '../images/image.png';
+import truffleIcon1 from '../images/truffleIcon2.png';
 import React from 'react'
-import icon from "../images/icon.svg";
-import icon1 from "../images/icon1.svg";
+import dashboardIcon from "../images/dashboardIcon.svg";
+import invoiceIcon from "../images/invoiceIcon.svg";
 import transferIcon from "../images/transferIcon.svg";
 import contactsIcon from "../images/contactsIcon.svg";
 import proformaIcon from "../images/proformaIcon.svg";
@@ -11,14 +11,14 @@ import swapIcon from "../images/swapIcon.svg";
 const Sidebar = () => {
   return (
     <div className='flex flex-col w-[264px] h-[895px] ml-[0px] mt-[0px]'>
-        <Image src={logo1} alt="logo" className='w-[166px] h-[28.25px] ml-[49px] mt-[27px]'/>
+        <Image src={truffleIcon1} alt="logo" className='w-[166px] h-[28.25px] ml-[49px] mt-[27px]'/>
         <div className='flex flex-row  w-[219px] h-[55px] ml-[33px] mr-[12px] mt-[45.75px] bg-white1 rounded shadow-sm'>
-            <Image src={icon} alt="vector" className='ml-[16px]'/>
+            <Image src={dashboardIcon} alt="vector" className='ml-[16px]'/>
             <label className='text-black1 font-normal text-sm mt-[19px] ml-[11px] leading-4'>Dashboard</label>
         </div>
 
         <div className='flex flex-row  w-[219px] h-[55px] ml-[33px] mr-[12px] mt-[8px] '>
-            <Image src={icon1} alt="icon" className='ml-[12px]'/>
+            <Image src={invoiceIcon} alt="icon" className='ml-[12px]'/>
             <label className='text-black1 font-normal text-sm my-[19px] ml-[7px] leading-4'>Invoice</label>
         </div>
 
