@@ -21,7 +21,7 @@ module.exports = {
       'white3' : '#F8F8F8',
       'blue1' : '#252F40',
       'purple1' : '#8553FB',
-      'text-grey1' : '#67748E',
+      'grey2' : '#67748E',
     },
     extend: {},
   },

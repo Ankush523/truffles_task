@@ -114,7 +114,7 @@ export default function NewChart() {
         <div className="rounded-t mb-0 px-4 py-3 bg-transparent">
           <div className="flex flex-wrap items-center">
             <div className="relative w-full max-w-full flex-grow flex-1">
-              <label className="text-grey1 text-sm font-semibold">Assets and Liabilities</label>
+              <label className="text-grey2 px-[5px] text-sm font-semibold">Assets and Liabilities</label>
             </div>
           </div>
         </div>
