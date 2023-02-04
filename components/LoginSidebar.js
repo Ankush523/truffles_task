@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import UserInfo from "@/components/UserInfo";
 import BusinessInfo from "@/components/BusinessInfo";
+import BusinessInfo2 from "./BusinessInfo2";
 
 const LoginSidebar = () => {
 
@@ -40,8 +41,7 @@ const LoginSidebar = () => {
                 </li>
               </ul>
             )
-            :
-            (
+            : status == "2" ?(
                 <ul className="steps steps-vertical">
                 <li
                   data-content="✓"
@@ -63,6 +63,29 @@ const LoginSidebar = () => {
                 </li>
               </ul>
             )
+            :
+            (
+                <ul className="steps steps-vertical">
+                <li
+                  data-content="✓"
+                  className="step step-primary  text-grey4 text-xs "
+                >
+                  USER INFORMATION
+                </li>
+                <li
+                  data-content="✓"
+                  className="step step-primary text-grey4 text-xs "
+                >
+                  BUSINESS INFORMATION
+                </li>
+                <li data-content="●" className="step step-primary text-purple2 text-xs ">
+                  BUSINESS INFORMATION 2
+                </li>
+                <li data-content="●" className="step text-grey4 text-xs ">
+                  UPLOAD DOCUMENTS
+                </li>
+              </ul>
+            )
             }
         </div>
       </div>
@@ -72,11 +95,16 @@ const LoginSidebar = () => {
           <div>
             <UserInfo />
           </div>
-        ) : (
+        ) : status == "2" ? (
           <div>
             <BusinessInfo />
           </div>
-        )}
+        ) : (
+            <div>
+                <BusinessInfo2 />
+            </div>
+        )
+    }
       </div>
     </>
   );

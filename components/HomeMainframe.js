@@ -107,7 +107,7 @@ const Mainframe = () => {
           </div>
         </div>
 
-        <div className="w-[400px] h-[712px] ml-[125px] mt-[29px]   bg-white1 rounded-xl shadow-lg">
+        <div className="w-[400px] h-[685px] ml-[125px] mt-[29px] bg-white1 rounded-xl shadow-lg">
           <div className="text-blue1 mx-[23px] mt-[24px]">
             <NewCalender />
           </div>

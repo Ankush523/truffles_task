@@ -27,7 +27,6 @@ export default function Home() {
             <Navbar />
           </div>
           <Mainframe />
-          <div className="w-[1415px] h-[813px]"></div>
         </div>
       </main>
     </>
