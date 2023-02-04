@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fall-out/react-calendar": "^1.0.3",
     "@next/font": "13.1.6",
     "@syncfusion/ej2-react-calendars": "^20.4.48",
     "apexcharts": "^3.36.3",

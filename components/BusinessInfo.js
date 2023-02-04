@@ -26,18 +26,36 @@ const BusinessInfo = () => {
                 <div className='flex flex-row mt-[34px]'>
                     <div className='flex flex-col '>
                         <label className='text-black1 text-sm mb-[4px]'>Country of Incorporation</label>
-                        <input placeholder='United States' className='text-sm bg-white1 border border-grey1 w-[514px] h-[38px] rounded-md text-black1 pl-[10px]'/>
+                        <select className="select-sm bg-white1 border border-grey1 rounded-md text-black1 w-[515px] h-[38px] text-sm ">
+                            <option disabled selected>Pick</option>
+                            <option>Britain</option>
+                            <option>France</option>
+                            <option>India</option>
+                            <option>United States</option>
+                        </select>
                     </div>
 
                     <div className='flex flex-col ml-[30px]'>
                         <label className='text-black1 text-sm mb-[4px]'>Country of Operation</label>
-                        <input placeholder='United States' className='text-sm bg-white1 border border-grey1 w-[514px] h-[38px] rounded-md text-black1 pl-[10px]'/>
+                        <select className="select-sm bg-white1 border border-grey1 rounded-md text-black1 w-[515px] h-[38px] text-sm ">
+                            <option disabled selected>Pick</option>
+                            <option>Britain</option>
+                            <option>France</option>
+                            <option>India</option>
+                            <option>United States</option>
+                        </select>
                     </div>
                 </div>
 
                 <div className='flex flex-col mt-[32px]'>
                     <label className='text-black1 text-sm mb-[4px]'>Business Type</label>
-                    <input placeholder='United States' className='w-[90%] text-left pl-[20px] text-sm bg-white1 border border-grey1 rounded-md h-[38px] text-black1 pl-[10px]'/>
+                    <select className="select-sm bg-white1 border border-grey1 rounded-md text-black1 w-[90%] h-[38px] text-sm ">
+                            <option disabled selected>Pick</option>
+                            <option>Britain</option>
+                            <option>France</option>
+                            <option>India</option>
+                            <option>United States</option>
+                        </select>
                 </div>
 
                 <div className='flex flex-col mt-[34px]'>

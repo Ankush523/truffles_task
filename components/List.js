@@ -9,7 +9,7 @@ const List = () => {
         {data.map((person) => {
             const{id,name,tfid,image,payment} = person
             return (
-                <article key={id} className='flex flex-row mx-[23px]'>
+                <article key={id} className='flex flex-row mx-[23px] mt-[10px]'>
                     {
                         (id == 1 ||  id == 4) ? <Image src={red} alt={name} className='mt-[19px] h-[40px] w-[40px] rounded-full'/> : <Image src={green} alt={name} className='mt-[19px] h-[40px] w-[40px] rounded-full'/>
                     }

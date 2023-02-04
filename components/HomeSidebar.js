@@ -18,30 +18,40 @@ const Sidebar = () => {
             <label className='text-black1 font-normal text-sm mt-[19px] ml-[11px] leading-4'>Dashboard</label>
         </div>
 
-        <div className='flex flex-row  w-[219px] h-[55px] ml-[33px] mr-[12px] mt-[8px] '>
-            <Image src={invoiceIcon} alt="icon" className='ml-[12px]'/>
-            <label className='text-black1 font-normal text-sm my-[19px] ml-[7px] leading-4'>Invoice</label>
-        </div>
+        <button>
+            <div className='flex flex-row  w-[219px] h-[55px] ml-[33px] mr-[12px] mt-[8px] '>
+                <Image src={invoiceIcon} alt="icon" className='ml-[12px]'/>
+                <label className='text-black1 font-normal text-sm my-[19px] ml-[7px] leading-4'>Invoice</label>
+            </div>
+        </button>
 
-        <div className='flex flex-row  w-[219px] h-[55px] ml-[33px] mr-[12px] mt-[8px] '>
-            <Image src={proformaIcon} alt="icon" className='ml-[12px]'/>
-            <label className='text-black1 font-normal text-sm my-[19px] ml-[7px] leading-4 line-through'>Proforma</label>
-        </div>
+        <button>
+            <div className='flex flex-row  w-[219px] h-[55px] ml-[33px] mr-[12px] mt-[8px] '>
+                <Image src={proformaIcon} alt="icon" className='ml-[12px]'/>
+                <label className='text-black1 font-normal text-sm my-[19px] ml-[7px] leading-4 line-through'>Proforma</label>
+            </div>
+        </button>
+        
+        <button>
+            <div className='flex flex-row  w-[219px] h-[55px] ml-[33px] mr-[12px] mt-[8px] '>
+                <Image src={swapIcon} alt="icon" className='ml-[12px]'/>
+                <label className='text-black1 font-normal text-sm my-[19px] ml-[7px] leading-4 line-through	'>Swap</label>
+            </div>
+        </button>
 
-        <div className='flex flex-row  w-[219px] h-[55px] ml-[33px] mr-[12px] mt-[8px] '>
-            <Image src={swapIcon} alt="icon" className='ml-[12px]'/>
-            <label className='text-black1 font-normal text-sm my-[19px] ml-[7px] leading-4 line-through	'>Swap</label>
-        </div>
+        <button>
+            <div className='flex flex-row  w-[219px] h-[55px] ml-[33px] mr-[12px] mt-[8px] '>
+                <Image src={transferIcon} alt="icon" className='ml-[12px]'/>
+                <label className='text-black1 font-normal text-sm my-[19px] ml-[7px] leading-4 line-through	'>Transfer</label>
+            </div>
+        </button>
 
-        <div className='flex flex-row  w-[219px] h-[55px] ml-[33px] mr-[12px] mt-[8px] '>
-            <Image src={transferIcon} alt="icon" className='ml-[12px]'/>
-            <label className='text-black1 font-normal text-sm my-[19px] ml-[7px] leading-4 line-through	'>Transfer</label>
-        </div>
-
-        <div className='flex flex-row  w-[219px] h-[55px] ml-[33px] mr-[12px] mt-[8px] '>
-            <Image src={contactsIcon} alt="icon" className='ml-[12px]'/>
-            <label className='text-black1 font-normal text-sm my-[19px] ml-[7px] leading-4'>Contacts</label>
-        </div>
+        <button>
+            <div className='flex flex-row  w-[219px] h-[55px] ml-[33px] mr-[12px] mt-[8px] '>
+                <Image src={contactsIcon} alt="icon" className='ml-[12px]'/>
+                <label className='text-black1 font-normal text-sm my-[19px] ml-[7px] leading-4'>Contacts</label>
+            </div>
+        </button>
     </div>
   )
 }

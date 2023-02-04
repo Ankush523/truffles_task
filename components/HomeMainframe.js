@@ -5,11 +5,18 @@ import cross from "../images/cross.svg";
 import wallet from "../images/wallet.svg";
 import up from "../images/up.svg";
 import down from "../images/down.svg";
-import NewCalender from "./NewCalender";
 import NewChart from "./NewChart";
 import List from "@/components/List";
+import "react-datepicker/dist/react-datepicker.css";
+import Calendar from "@fall-out/react-calendar";
+import "@fall-out/react-calendar/dist/Calendar.css";
 
 const Mainframe = () => {
+
+  const [startDate, setStartDate] = useState(new Date());
+  const [value, onChange] = useState(new Date());
+
+  
   return (
     <div className="flex flex-col w-[1415px] h-[813px]">
       <div className="flex flex-row w-[1385px] h-[56px] mt-[14px] bg-purple1 rounded-md">
@@ -107,12 +114,16 @@ const Mainframe = () => {
           </div>
         </div>
 
-        <div className="w-[400px] h-[685px] ml-[125px] mt-[29px] bg-white1 rounded-xl shadow-lg">
-          <div className="text-blue1 mx-[23px] mt-[24px]">
-            <NewCalender />
+        <div className="w-[400px] h-[685px] ml-[125px] mt-[29px] bg-white1 rounded-xl shadow-lg overflow-y-auto	">
+          <div className="flex flex-col items-center justify-center text-blue1 mt-[30px]">
+          <Calendar
+        onChange={onChange}
+        value={value}
+      />
           </div>
           <br />
-          <hr className="border border-white2" />
+          <hr className="border border-white2 " />
+
           <List />
         </div>
       </div>
