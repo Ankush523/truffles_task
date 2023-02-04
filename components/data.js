@@ -1,12 +1,13 @@
-import redArrow from '../images/redArrow.svg';
-import greenArrow from '../images/greenArrow.svg';
 
+import greenArrow from '../images/greenArrow.svg';
+import redArrow from '../images/redArrow.svg';
+import logo from "../images/Ico.png";
 export const data =  [
     {
       id: 1,
       name: 'QUICKSILVER LLC',
       tfid: 8045780,
-      image:{redArrow},
+      image : {logo},
       payment: "$145,000.00",
     },
     {
@@ -27,7 +28,7 @@ export const data =  [
       id: 4,
       name: 'QUICKSILVER LLC',
       tfid: 8045780,
-      image:{redArrow},
+      image : {logo},
       payment: "$145,000.00",
     },
     {

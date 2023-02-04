@@ -9,7 +9,7 @@ const List = () => {
             const{id,name,tfid,image,payment} = person
             return (
                 <article key={id} className='flex flex-row mx-[23px]'>
-                    <Image src={image} alt={name} className='w-[60px] h-[60px] rounded-full'/>
+                    <Image src={image} alt={name} width={100} height={100} className='w-[60px] h-[60px] rounded-full'/>
                     <div className='flex flex-col ml-[15px] w-[155px] mt-[15px]'>
                         <p className='text-black1'>{name}</p>
                         <p className='text-left text-black1 text-xs'>TFID: {tfid}</p>
