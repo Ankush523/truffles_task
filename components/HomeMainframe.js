@@ -5,8 +5,8 @@ import cross from "../images/cross.svg";
 import wallet from "../images/wallet.svg";
 import up from "../images/up.svg";
 import down from "../images/down.svg";
-import NewCalender from "../components/NewCalender";
-import NewChart from "../components/NewChart";
+import NewCalender from "./NewCalender";
+import NewChart from "./NewChart";
 import List from "@/components/List";
 
 const Mainframe = () => {
@@ -38,28 +38,51 @@ const Mainframe = () => {
           <div className="flex flex-row">
             <div className="flex flex-row w-[420px] h-[120px] mt-[29px] rounded-xl shadow-lg bg-white1">
               <div className="flex flex-col px-[20px]">
-                <label className="text-base leading-5 w-[117px] h-[19px] mt-[28px] ml-[24.17px] text-grey2 font-normal">Fiat Balance</label>
-                <p className="text-2xl leading-5 w-[117px] h-[19px] mt-[16px] ml-[24px] text-blue1 font-bold">$00,000</p>
+                <label className="text-base leading-5 w-[117px] h-[19px] mt-[28px] ml-[24.17px] text-grey2 font-normal">
+                  Fiat Balance
+                </label>
+                <p className="text-2xl leading-5 w-[117px] h-[19px] mt-[16px] ml-[24px] text-blue1 font-bold">
+                  $00,000
+                </p>
               </div>
-              <Image src={wallet} alt="wallet" className="w-[60px] h-[60px] ml-[139px] my-[30px]"/>
+              <Image
+                src={wallet}
+                alt="wallet"
+                className="w-[60px] h-[60px] ml-[139px] my-[30px]"
+              />
             </div>
 
             <div className="flex flex-row w-[420px] ml-[20px] h-[120px] mt-[29px] rounded-xl shadow-lg bg-white1">
               <div className="flex flex-col px-[20px]">
-                <label className="text-base leading-5 w-[117px] h-[19px] mt-[28px] ml-[24.17px] text-grey2 font-normal">Crypto Balance</label>
-                <p className="text-2xl leading-5 w-[117px] h-[19px] mt-[16px] ml-[24px] text-blue1 font-bold">$00,000</p>
+                <label className="text-base leading-5 w-[117px] h-[19px] mt-[28px] ml-[24.17px] text-grey2 font-normal">
+                  Crypto Balance
+                </label>
+                <p className="text-2xl leading-5 w-[117px] h-[19px] mt-[16px] ml-[24px] text-blue1 font-bold">
+                  $00,000
+                </p>
               </div>
-              <Image src={wallet} alt="wallet" className="w-[60px] h-[60px] ml-[139px] my-[30px]"/>
+              <Image
+                src={wallet}
+                alt="wallet"
+                className="w-[60px] h-[60px] ml-[139px] my-[30px]"
+              />
             </div>
           </div>
 
           <div className="flex flex-row">
             <div className="flex flex-row w-[420px] h-[120px] mt-[20px] rounded-xl shadow-lg bg-white1">
               <div className="flex flex-col px-[20px]">
-                <label className="text-base leading-5 w-[117px] h-[19px] mt-[28px] ml-[24.17px] text-grey2 font-normal">Receivable</label>
-                <p className="text-2xl leading-5 w-[117px] h-[19px] mt-[16px] ml-[24px] text-blue1 font-bold">$00,000</p>
+                <label className="text-base leading-5 w-[117px] h-[19px] mt-[28px] ml-[24.17px] text-grey2 font-normal">
+                  Receivable
+                </label>
+                <p className="text-2xl leading-5 w-[117px] h-[19px] mt-[16px] ml-[24px] text-blue1 font-bold">
+                  $00,000
+                </p>
               </div>
-              <Image src={down} alt="wallet" className="w-[60px] h-[60px] ml-[139px] my-[30px]"
+              <Image
+                src={down}
+                alt="wallet"
+                className="w-[60px] h-[60px] ml-[139px] my-[30px]"
               />
             </div>
             <div className="flex flex-row w-[420px] ml-[20px] h-[120px] mt-[20px] rounded-xl shadow-lg bg-white1">
