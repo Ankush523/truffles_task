@@ -2,9 +2,9 @@ import Head from "next/head";
 import { Inter } from "@next/font/google";
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
-import Navbar from "@/components/Navbar";
-import Sidebar from "@/pages/Sidebar";
-import Mainframe from "@/pages/Mainframe";
+import Navbar from "@/components/HomeNavbar";
+import Sidebar from "@/components/HomeSidebar";
+import Mainframe from "@/components/HomeMainframe";
 
 const inter = Inter({ subsets: ["latin"] });
 
