@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import logo2 from "../images/Frame.svg";
 import cross from "../images/cross.svg";
 import wallet from "../images/wallet.svg";
@@ -7,8 +7,12 @@ import up from "../images/up.svg";
 import down from "../images/down.svg";
 import NewCalender from "../components/NewCalender";
 import NewChart from "../components/NewChart";
+import List from "@/components/List";
 
 const Mainframe = () => {
+
+
+
   return (
     <div className="flex flex-col w-[1415px] h-[813px]">
       <div className="flex flex-row w-[1390px] h-[56px] mt-[14px] bg-purple1 rounded-md">
@@ -106,12 +110,13 @@ const Mainframe = () => {
           </div>
         </div>
 
-        <div className="w-[364px] h-[712px] mt-[29px] ml-[278px] bg-white1 rounded-xl shadow-lg">
+        <div className="w-[400px] h-[712px] mt-[29px] ml-[210px]  bg-white1 rounded-xl shadow-lg">
           <div className="text-blue1 mx-[23px] mt-[24px]">
             <NewCalender />
           </div>
           <br />
           <hr className="border border-white2" />
+          <List/>
         </div>
       </div>
     </div>
