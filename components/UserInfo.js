@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
-const UserInfo = () => {
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
 
+const UserInfo = () => {
+    const [startDate, setStartDate] = useState(new Date());
     const refresh = () => window.location.reload(true)
 
   return (
@@ -27,12 +30,12 @@ const UserInfo = () => {
 
                     <div className='flex flex-col ml-[30px]'>
                         <label className='text-black1 text-sm mb-[4px]'>First name</label>
-                        <input className='bg-white1 border border-grey1 w-[332px] h-[38px] rounded-md'/>
+                        <input className='bg-white1 border border-grey1 w-[332px] h-[38px] rounded-md text-black1 pl-[10px]'/>
                     </div>
 
                     <div className='flex flex-col ml-[30px]'>
                         <label className='text-black1 text-sm mb-[4px]'>Last name</label>
-                        <input  className='bg-white1 border border-grey1 w-[332px] h-[38px] rounded-md'/>
+                        <input  className='bg-white1 border border-grey1 w-[332px] h-[38px] rounded-md text-black1 pl-[10px]'/>
                     </div>
                 </div>
 
@@ -40,7 +43,7 @@ const UserInfo = () => {
                     <label className='text-black1 text-sm mb-[4px]'>Mobile Number</label>
                     <div className='flex flex-row'>
                         <input placeholder='US' className='w-[8%] text-center bg-white1 border border-grey1 rounded-l-md h-[38px]'/>
-                        <input placeholder='+1 (555) 987-6543' className='w-[82%] text-left pl-[20px] text-sm bg-white1 border border-grey1 rounded-r-md h-[38px]'/>
+                        <input placeholder='+1 (555) 987-6543' className='w-[82%] text-left pl-[10px] text-black1 text-sm bg-white1 border border-grey1 rounded-r-md h-[38px] '/>
                     </div>
                 </div>
 
@@ -57,23 +60,23 @@ const UserInfo = () => {
                 <div className='flex flex-row mt-[34px]'>
                     <div className='flex flex-col '>
                         <label className='text-black1 text-sm mb-[4px]'>Residential Address</label>
-                        <input className='bg-white1 border border-grey1 w-[514px] h-[38px] rounded-md text-black1'/>
+                        <input className='bg-white1 border border-grey1 w-[514px] h-[38px] rounded-md text-black1 pl-[10px]'/>
                     </div>
 
                     <div className='flex flex-col ml-[30px]'>
                         <label className='text-black1 text-sm mb-[4px]'>Postal Code</label>
-                        <input  className='bg-white1 border border-grey1 w-[514px] h-[38px] text-black1 rounded-md'/>
+                        <input  className='bg-white1 border border-grey1 w-[514px] h-[38px] text-black1 rounded-md pl-[10px]'/>
                     </div>
                 </div>
 
                 <div className='flex flex-col mt-[34px]'>
                     <label className='text-black1 text-sm mb-[4px]'>Occupation</label>
-                    <input className='bg-white1 border border-grey1 w-[90%] h-[38px] rounded-md text-black1'/>
+                    <input className='bg-white1 border border-grey1 w-[90%] h-[38px] rounded-md text-black1 pl-[10px]'/>
                 </div>
 
                 <div className='flex flex-col mt-[34px]'>
                     <label className='text-black1 text-sm mb-[4px]'>Date of Birth</label>
-                    <input placeholder='05/02/2023' className='text-sm bg-white1 border border-grey1 pl-[10px] w-[90%] h-[38px] rounded-md'/>
+                    <DatePicker selected={startDate} onChange={(date) => setStartDate(date)} className="bg-white1 text-black1 text-sm bg-white1 border border-grey1 pl-[10px] w-[90%] h-[38px] rounded-md"/>
                 </div>
 
                 <div className='flex flex-row mt-[64px]'>

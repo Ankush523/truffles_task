@@ -1,7 +1,9 @@
 import React from 'react'
-
+import DatePicker from "react-datepicker";
+import { useState } from 'react';
+import "react-datepicker/dist/react-datepicker.css";
 const BusinessInfo = () => {
-
+    const [startDate, setStartDate] = useState(new Date());
     const refresh = () => window.location.reload(true)
 
   return (
@@ -67,7 +69,7 @@ const BusinessInfo = () => {
 
                 <div className='flex flex-col mt-[34px]'>
                     <label className='text-black1 text-sm mb-[4px]'>Incorporation Date</label>
-                    <input placeholder='05/02/2023' className='text-sm bg-white1 border border-grey1 w-[90%] h-[38px] rounded-md'/>
+                    <DatePicker selected={startDate} onChange={(date) => setStartDate(date)} className="bg-white1 text-black1 text-sm bg-white1 border border-grey1 pl-[10px] w-[90%] h-[38px] rounded-md"/>
                 </div>
 
                 <div className='flex flex-row mt-[64px]'>
