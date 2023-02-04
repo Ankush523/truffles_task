@@ -4,6 +4,7 @@ import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import Navbar from '@/components/Navbar'
 import Sidebar from '@/components/Sidebar'
+import Mainframe from '@/components/Mainframe'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -25,7 +26,7 @@ export default function Home() {
           <div className='w-[1415px] h-[83px] mt-[0px]'>
             <Navbar/>
           </div>
-
+            <Mainframe/>
           <div className='w-[1415px] h-[813px]'>
        
           </div>
