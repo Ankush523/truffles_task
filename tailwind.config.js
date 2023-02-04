@@ -20,6 +20,8 @@ module.exports = {
       'white2':'#F5F5F5',
       'white3' : '#F8F8F8',
       'blue1' : '#252F40',
+      'purple1' : '#8553FB',
+      'text-grey1' : '#67748E',
     },
     extend: {},
   },

@@ -10,10 +10,15 @@
   },
   "dependencies": {
     "@next/font": "13.1.6",
+    "@syncfusion/ej2-react-calendars": "^20.4.48",
+    "apexcharts": "^3.36.3",
+    "chart.js": "2.9.3",
     "eslint": "8.33.0",
     "eslint-config-next": "13.1.6",
     "next": "13.1.6",
     "react": "18.2.0",
+    "react-apexcharts": "^1.4.0",
+    "react-calendar": "^4.0.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
