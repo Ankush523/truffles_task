@@ -1,10 +1,6 @@
 import Head from "next/head";
 import { Inter } from "@next/font/google";
-import Image from "next/image";
-import styles from "@/styles/Home.module.css";
-import Navbar from "@/components/HomeNavbar";
-import Sidebar from "@/components/HomeSidebar";
-import Mainframe from "@/components/HomeMainframe";
+import HomePage from "./HomePage";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,16 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="bg-white3 flex flex-row">
-        <div className="w-[264px] h-[895px] ml-[0px] mt-[0px]">
-          <Sidebar />
-        </div>
-
-        <div className="flex flex-col">
-          <div className="w-[1415px] h-[83px] mt-[0px]">
-            <Navbar />
-          </div>
-          <Mainframe />
-        </div>
+          <HomePage/>
       </main>
     </>
   );

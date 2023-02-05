@@ -1,12 +1,12 @@
 import Image from 'next/image'
 import React from 'react'
-import truffleIcon from '../images/truffleIcon2.png';
-import dashboardIcon from "../images/dashboardIcon.svg";
-import invoiceIcon from "../images/invoiceIcon.svg";
-import transferIcon from "../images/transferIcon.svg";
-import contactsIcon from "../images/contactsIcon.svg";
-import proformaIcon from "../images/proformaIcon.svg";
-import swapIcon from "../images/swapIcon.svg";
+import truffleIcon from '@/images/truffleIcon2.png';
+import dashboardIcon from "@/images/dashboardIcon.svg";
+import invoiceIcon from "@/images/invoiceIcon.svg";
+import transferIcon from "@/images/transferIcon.svg";
+import contactsIcon from "@/images/contactsIcon.svg";
+import proformaIcon from "@/images/proformaIcon.svg";
+import swapIcon from "@/images/swapIcon.svg";
 
 const Sidebar = () => {
   return (

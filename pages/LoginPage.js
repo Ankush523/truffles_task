@@ -1,6 +1,6 @@
-import LoginMainframe from "@/components/UserInfo";
-import LoginNavbar from "@/components/LoginNavbar";
-import LoginSidebar from "@/components/LoginSidebar";
+import LoginMainframe from "@/components/LoginPageComponents/UserInfo";
+import LoginNavbar from "@/components/LoginPageComponents/LoginNavbar";
+import LoginSidebar from "@/components/LoginPageComponents/LoginSidebar";
 import React from "react";
 
 const LoginPage = () => {
@@ -9,7 +9,7 @@ const LoginPage = () => {
       <LoginNavbar />
       <hr className="border border-white2" />
       <div className="flex flex-row">
-        <LoginSidebar/>
+        <LoginSidebar />
       </div>
     </div>
   );

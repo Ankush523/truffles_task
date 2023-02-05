@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import truffleIcon from '../images/truffleIcon2.png';
+import truffleIcon from '@/images/truffleIcon2.png';
 const LoginNavbar = () => {
   return (
     <div className='w-100vw h-[72px] mt-[0px] ml-[0px] bg-white1 flex flex-row'>

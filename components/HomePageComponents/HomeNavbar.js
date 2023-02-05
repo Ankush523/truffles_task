@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import group1 from "../images/group1.svg";
-import group2 from "../images/group3.svg";
+import group1 from "@/images/group1.svg";
+import group2 from "@/images/group3.svg";
 import Link from "next/link";
 const Navbar = () => {
   return (
