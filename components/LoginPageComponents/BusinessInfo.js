@@ -26,8 +26,8 @@ const BusinessInfo = () => {
                 <div className='flex flex-row mt-[34px]'>
                     <div className='flex flex-col '>
                         <label className='text-black1 text-sm mb-[4px]'>Country of Incorporation</label>
-                        <select className="select-sm bg-white1 border border-grey1 rounded-md text-black1 w-[515px] h-[38px] text-sm ">
-                            <option disabled selected>Pick</option>
+                        <select className="select-sm bg-white1 border border-grey1 rounded-md text-grey2 w-[515px] h-[38px] text-sm ">
+                            <option disabled selected>United States</option>
                             <option>Britain</option>
                             <option>France</option>
                             <option>India</option>
@@ -37,8 +37,8 @@ const BusinessInfo = () => {
 
                     <div className='flex flex-col ml-[30px]'>
                         <label className='text-black1 text-sm mb-[4px]'>Country of Operation</label>
-                        <select className="select-sm bg-white1 border border-grey1 rounded-md text-black1 w-[515px] h-[38px] text-sm ">
-                            <option disabled selected>Pick</option>
+                        <select className="select-sm bg-white1 border border-grey1 rounded-md text-grey2 w-[515px] h-[38px] text-sm ">
+                            <option disabled selected>United States</option>
                             <option>Britain</option>
                             <option>France</option>
                             <option>India</option>
@@ -49,8 +49,8 @@ const BusinessInfo = () => {
 
                 <div className='flex flex-col mt-[32px]'>
                     <label className='text-black1 text-sm mb-[4px]'>Business Type</label>
-                    <select className="select-sm bg-white1 border border-grey1 rounded-md text-black1 w-[90%] h-[38px] text-sm ">
-                            <option disabled selected>Pick</option>
+                    <select className="select-sm bg-white1 border border-grey1 rounded-md text-grey2 w-[90%] h-[38px] text-sm ">
+                            <option disabled selected>United States</option>
                             <option>Britain</option>
                             <option>France</option>
                             <option>India</option>

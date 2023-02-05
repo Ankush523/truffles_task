@@ -16,19 +16,19 @@ const UserInfo = () => {
                 <div className='flex flex-row mt-[34px]'>
                     <div className='flex flex-col'>
                         <label className='text-black1 text-sm mb-[4px]'>Title</label>
-                        <select className="select-sm bg-white1 border border-grey1 rounded-md text-black1 w-[332px] h-[38px] text-sm max-w-xs">
-                            <option disabled selected>Pick</option>
+                        <select className="select-sm bg-white1 border border-grey1 rounded-md text-grey2 w-[332px] h-[38px] text-sm max-w-xs">
+                            <option disabled selected>Mr.</option>
                             <option>Mr.</option>
                             <option>Mrs.</option>
                         </select>
                     </div>
 
-                    <div className='flex flex-col ml-[30px]'>
+                    <div className='flex flex-col ml-[36.5px]'>
                         <label className='text-black1 text-sm mb-[4px]'>First name</label>
                         <input className='bg-white1 border border-grey1 w-[332px] h-[38px] rounded-md text-black1 pl-[10px]'/>
                     </div>
 
-                    <div className='flex flex-col ml-[30px]'>
+                    <div className='flex flex-col ml-[37px]'>
                         <label className='text-black1 text-sm mb-[4px]'>Last name</label>
                         <input  className='bg-white1 border border-grey1 w-[332px] h-[38px] rounded-md text-black1 pl-[10px]'/>
                     </div>
@@ -37,15 +37,21 @@ const UserInfo = () => {
                 <div className='flex flex-col mt-[32px]'>
                     <label className='text-black1 text-sm mb-[4px]'>Mobile Number</label>
                     <div className='flex flex-row'>
-                        <input placeholder='US' className='w-[8%] text-center bg-white1 border border-grey1 rounded-l-md h-[38px]'/>
+                        <select className="select-sm bg-white1 border border-grey1 rounded-l-md text-grey2 w-[8%] h-[38px] text-sm max-w-xs">
+                            <option disabled selected>US</option>
+                            <option>Britain</option>
+                            <option>France</option>
+                            <option>India</option>
+                            <option>US</option>
+                        </select>
                         <input placeholder='+1 (555) 987-6543' className='w-[82%] text-left pl-[10px] text-black1 text-sm bg-white1 border border-grey1 rounded-r-md h-[38px] '/>
                     </div>
                 </div>
 
                 <div className='flex flex-col mt-[32px]'>
                     <label className='text-black1 text-sm mb-[4px]'>Gender</label>
-                    <select className="select-sm bg-white1 border border-grey1 rounded-md text-black1 w-[90%] h-[38px] text-sm ">
-                            <option disabled selected>Pick</option>
+                    <select className="select-sm bg-white1 border border-grey1 rounded-md text-grey2 w-[90%] h-[38px] text-sm ">
+                            <option disabled selected>Male</option>
                             <option>Male</option>
                             <option>Female</option>
                     </select>
@@ -53,8 +59,8 @@ const UserInfo = () => {
 
                 <div className='flex flex-col mt-[32px]'>
                     <label className='text-black1 text-sm mb-[4px]'>Nationality</label>
-                    <select className="select-sm bg-white1 border border-grey1 rounded-md text-black1 w-[90%] h-[38px] text-sm ">
-                            <option disabled selected>Pick</option>
+                    <select className="select-sm bg-white1 border border-grey1 rounded-md text-grey2 w-[90%] h-[38px] text-sm ">
+                            <option disabled selected>United States</option>
                             <option>Britain</option>
                             <option>France</option>
                             <option>India</option>
